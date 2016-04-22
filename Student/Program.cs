@@ -14,7 +14,7 @@ namespace OwinSelfhostSample
             // Start OWIN host 
             using (WebApp.Start<Startup>(url: baseAddress))
             {
-                
+                Console.WriteLine("Test");
                 Console.ReadLine();
             }
 
